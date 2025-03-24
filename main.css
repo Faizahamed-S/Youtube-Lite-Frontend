@@ -4,38 +4,38 @@ body{
 .Search-box{
     margin-bottom:10px;
 }
-.Content-box{
-    width:300px;
+.Playlist{
+    display:flex;
 }
-.dp-box{
-  display:flex;
-  align-items: center;
-  padding-top:8px;
-  margin-top:10px;
-}
+.Content-box {
+    width: 300px;
+    margin-right: 15px;
+  }
+  .dp-box {
+    display: flex;
+    align-items: flex-start;
+  }
+
 .dp-box p{
     margin:0;
     line-height:1.2;
 }
-.Thumbnail{
-    width:263px;
-    height: 147.56px;
-    margin-bottom: -7px;
-    display:block;
-}
+.Thumbnail {
+    width: 300px;
+    margin-bottom: 12px;
+  }
 .Dp{
     width:36px;
     height:35px;
     border-radius:18px;
     margin-right: 10px;
 }
-.title{
-    width:230px;
-    margin-bottom:5px;
-    line-height:1;
+.title {
+    font-size: 14px;
     font-weight: 500;
-    font-size:14px;
-}
+    line-height: 20px;
+    margin: 0 0 12px 0;
+  }
 .Video-stats{
     margin-left:45px;
     color:rgb(96, 96, 96);
