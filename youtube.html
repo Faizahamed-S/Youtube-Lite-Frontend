@@ -26,7 +26,7 @@
             }
             .video-cards{
                 display:flex;
-                background-color: aqua;
+                
                 align-items: center;
                 flex-wrap: wrap;
                 justify-content: flex-start;
@@ -36,7 +36,6 @@
 
             }
             .firstcard{
-                background-color: lightpink;
                 margin-bottom:20px;
                 min-width: 250px;
                 max-width: 300px;
@@ -77,7 +76,6 @@
             .dp-title{
                 display: flex;
                 align-items: center;
-                background-color: beige;
                 margin-top:-5px;
             }
             .dp{
@@ -86,7 +84,17 @@
                 margin-right: 5px;
                 border-radius: 20px;
             }
-            
+            .details{
+                color:rgb(96,96,96);
+                margin-left:40px;
+                margin-top:-20px;
+            }
+            .video-stats{
+                margin-top: -10px;
+            }
+            .image-wrapper{
+                position:relative;
+            }
 
         </style>
     </head>
@@ -106,22 +114,34 @@
 
         <div class="video-cards">
             <div class="firstcard">
-                <img class="image" src="../Thumbnails/thumbnail-1.webp">
+                <div class="image-wrapper">
+                    <img class="image" src="../Thumbnails/thumbnail-1.webp">
+                    <p class="time" 
+                    style="position:absolute;
+                    background-color: black;
+                    bottom:-5px;
+                    right:10px;
+                    color:white;
+                    border-radius:2px;
+                    font-size:15px;
+                    padding-left: 2px;
+                    padding-right:2px;
+                    padding-top:2px;
+                    padding-bottom: 2px;">
+                    12:10
+            </p>
+                </div>
                 <div class="dp-title">
                     <img class='dp' src="../DPs/channel-1.jpeg">
                     <p class="title"> Talking Tech and AI with Google CEO Sundar Pichai!</p>
                 </div>
-                <p class="youtuber">youtuber name</p>
-                <p class="video-stats"> Video Stats</p>
-                <p class="time" style="position:absolute;background-color: black; bottom:-5px;right:10px; color:white; border-radius:2px; font-size:15px; padding-left: 2px;padding-right:2px;padding-top:2px; padding-bottom: 2px;" >12:10</p>
+                <div class="details">
+                    <p class="youtuber">Marques Brownlee</p>
+                    <p class="video-stats"> 3.4M views &#183 6 months ago</p>
+                </div>
+                </p>
             </div>
-            <div class="secondcard">
-                <p class="image"> this is image</p>
-                <p class="dp-title">this is dp and title</p>
-                <p class="youtuber">youtuber name</p>
-                <p class="video-stats"> Video Stats</p>
-                <p class="time" style="position:absolute;background-color: black; bottom:-5px;right:10px; color:white; border-radius:2px; font-size:15px; padding-left: 2px;padding-right:2px;padding-top:2px; padding-bottom: 2px;" >12:10</p>
-            </div>
+           
             <div class="thirdcard">
                 <p class="image"> this is image</p>
                 <p class="dp-title">this is dp and title</p>
