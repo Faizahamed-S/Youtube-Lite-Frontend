@@ -8,7 +8,6 @@
             .experiment {
                 display: flex;
                 justify-content: space-between;
-                background-color: beige;
                 height: 60px;
                 margin-bottom: 50px;
                 position: fixed;
@@ -16,24 +15,41 @@
                 left: 0;
                 width: 100%;
                 z-index: 10;
+                background-color: white;
+                align-items: center;
             }
-            .first,.second,.third{
+            .first{
                 width:150px;
                 height: 60px;
                 display:flex;
                 justify-content: center;
                 align-items: center;
             }
+            .second{
+                width:500px;
+                height: 60px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .third{
+                width:150px;
+                height: 60px;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+
+            }
             .video-cards{
                 display:flex;
-                
                 align-items: center;
                 flex-wrap: wrap;
                 justify-content: flex-start;
                 gap:20px;
                 margin-left:100px;
                 margin-top:90px;
-
+                
             }
             .firstcard{
                 margin-bottom:20px;
@@ -41,18 +57,16 @@
                 max-width: 300px;
                 flex: 1 1 250px;
                 position: relative;
-                
             }
             .leftbar{
                 position:fixed;
                 top:90px;
-                display: inline-block;
-                background-color: lightgreen;
+                display: flex;
                 width:80px;
                 height:420px;
-            }
-            .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6{
-                margin-bottom: 50px;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
             }
             .image{
                 width:100%;
@@ -93,19 +107,126 @@
             .youtuber:hover{
                 cursor:pointer;
             }
-
+            .hamburger{
+                width:20px;
+                margin-left:10px;
+                
+            }
+            .youtube-icon{
+                width:60%;
+                margin-right:10px;
+            }
+            .first{
+                justify-content: space-between;
+            }
+            .search{
+                height:36px;
+                width:300px;
+                margin-left:-50px;
+                border-color: rgb(217, 217, 217);
+                border:1px solid rgb(176, 176, 176);
+                font-size: 15px;
+            }
+            .search-icon{
+                width:25px;
+                background-color: rgb(241, 238, 238);
+                padding-left: 20px;
+                padding-right:20px;
+                padding-top: 6.5px;
+                padding-bottom: 6px;
+                border:1px solid rgb(176, 176, 176);
+                margin-left:-2px;
+            }
+            .voice-search{
+                margin-left:5px;
+                width:21px;
+                background-color: rgb(233, 231, 231);
+                padding-top:10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 30px;
+            }
+            .upload{
+                width:23px;
+            }
+            .youtube-apps{
+                width: 23px;
+            }
+            .notifications{
+                width: 23px;
+            }
+            .my-image{
+                width:27px;
+                border-radius: 13px;
+            }
+            .home-icon{
+                width:30px;
+                margin-left:0px;
+            }
+            .explore-icon{
+                width:30px;
+                margin-left:1px;
+            }
+            .subscription-icon{
+                width:30px;
+                margin-left:16px;
+            }
+            .music-icon{
+                width: 30px;
+                margin-left: 22px;
+            }
+            .originals-icon{
+                width:30px;
+                margin-left:6px;
+            }
+            .library-icon{
+                width: 30px;
+                margin-left:3px;
+            }
+            .subscription-title{
+                font-size: 12px;
+                margin-top:-3px;
+            }
+            .explore-title{
+                font-size:12px;
+                margin-top:-3px;
+            }
+            .home-title{
+                margin-top:-3px;
+                margin-right:5px;
+                font-size: 12px;
+            }
+            .originals-title{
+                font-size: 12px;
+                margin-top:-3px;
+            }
+            .music-title{
+                font-size:12px;
+                margin-top:-3px;
+            }
+            .library-title{
+                font-size:12px;
+                margin-top:-3px; 
+            }
         </style>
     </head>
     <body>
         <div class="experiment">
-            <div class="first" style="background-color: lightpink;">
-                this is first class
+            <div class="first" >
+                <img class="hamburger" src="Icons/hamburger-menu.svg">
+                <img class="youtube-icon" src="Icons/youtube-logo.svg">
             </div>
-            <div class="second" style="background-color: lightblue;">
-                this is second class
+            <div class="second">
+                <input class="search" type:text placeholder="Search">
+                <img class="search-icon" src="Icons/search.svg">
+                <img class="voice-search" src="Icons/voice-search-icon.svg">
             </div>
-            <div class="third" style="background-color: lightpink;" >
-                this is third class
+            <div class="third">
+                <img class="upload" src="Icons/upload.svg">
+                <img class="youtube-apps" src="Icons/youtube-apps.svg">
+                <img class="notifications" src="Icons/notifications.svg">
+                <img class="my-image" src="DPs/mychannel.jpg">
             </div>
         </div>
 
@@ -450,12 +571,30 @@
         </div>
 
         <div class="leftbar">
-            <div class="icon-1"> first</div>
-            <div class="icon-2"> second</div>
-            <div class="icon-3"> third </div>
-            <div class="icon-4"> fourth </div>
-            <div class="icon-5"> fifth </div>
-            <div class="icon-6"> sixth </div>
+            <div class="icon-1">
+                <img class="home-icon" src="Icons/home.svg">
+                <p class="home-title"> Home</p>
+            </div>
+            <div class="icon-2">
+                <img class="explore-icon" src="Icons/explore 2.svg"> 
+                <p class="explore-title">Explore</p> 
+            </div>
+            <div class="icon-3">
+                 <img class="subscription-icon" src="Icons/subscriptions.svg">
+                 <p class="subscription-title"> Subscriptions</p>
+            </div>
+            <div class="icon-4">
+                 <img class="originals-icon" src="Icons/originals.svg"> 
+                 <p class="originals-title"> Originals</p>
+            </div>
+            <div class="icon-5">
+                 <img class="music-icon" src="Icons/explore.svg"> 
+                 <p class="music-title"> Youtube Music</p>
+            </div>
+            <div class="icon-6">
+                 <img class="library-icon" src="Icons/library.svg">
+                 <p class="library-title"> Library</p>
+            </div>
         </div>
     </body>
 </html>
