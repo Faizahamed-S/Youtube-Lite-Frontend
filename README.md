@@ -17,10 +17,11 @@
 ## 📸 Screenshots
 
 ### Initial Template (flexbox.html)
-*(Insert screenshot here)*
+<img src="./Assets/Template.png" alt="Youtube Template Preview" width="600" height="350">
 
 ### Final Output (youtube.html)
-*(Insert screenshot here)*
+<img src="./Assets/Final-output.png" alt="YouTube Clone Preview" width="600" height="350">
+
 
 ---
 
