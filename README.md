@@ -20,7 +20,7 @@
 <img src="./Assets/Template.png" alt="Youtube Template Preview" width="600" height="350">
 
 ### Final Output (youtube.html)
-<img src="./Assets/Final-output.png" alt="YouTube Clone Preview" width="600" height="350">
+<img src="./Assets/Final_output.png" alt="YouTube Clone Preview" width="600" height="350">
 
 
 ---
