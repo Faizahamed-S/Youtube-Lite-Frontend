@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" href="styling/index.css">
-    <link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet">
-    <style>
-        @import url('https://fonts.cdnfonts.com/css/youtube-sans');
-</style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styling/index.css" />
+  </head>
+  <body>
+    <div class="experiment">
+      <div class="first">
+        <img class="hamburger" src="Icons/hamburger-menu.svg" alt="Menu" />
+        <img class="youtube-icon" src="Icons/youtube-logo.svg" alt="YouTube Logo" />
+      </div>
+      <div class="second">
+        <input class="search" type="text" placeholder="Search" />
+        <img class="search-icon" src="Icons/search.svg" alt="Search Icon" />
+        <img class="voice-search" src="Icons/voice-search-icon.svg" alt="Voice Search Icon" />
+      </div>
+      <div class="third">
+        <img class="upload" src="Icons/upload.svg" alt="Upload Icon" />
+        <img class="youtube-apps" src="Icons/youtube-apps.svg" alt="YouTube Apps Icon" />
+        <img class="notifications" src="Icons/notifications.svg" alt="Notifications Icon" />
+        <img class="my-image" src="DPs/mychannel.jpg" alt="User Channel Image" />
+      </div>
+    </div>
 
-    </head>
-    <body>
-        <div class="experiment">
-            <div class="first" >
-                <img class="hamburger" src="Icons/hamburger-menu.svg">
-                <img class="youtube-icon" src="Icons/youtube-logo.svg">
-            </div>
-            <div class="second">
-                <input class="search" type:text placeholder="Search">
-                <img class="search-icon" src="Icons/search.svg">
-                <img class="voice-search" src="Icons/voice-search-icon.svg">
-            </div>
-            <div class="third">
-                <img class="upload" src="Icons/upload.svg">
-                <img class="youtube-apps" src="Icons/youtube-apps.svg">
-                <img class="notifications" src="Icons/notifications.svg">
-                <img class="my-image" src="DPs/mychannel.jpg">
-            </div>
-        </div>
-        <div class="horizontal-line"></div>
-        <div class="vertical-line"></div>
-        
-
+    <div class="leftbar">
+      <div class="icon-1">
+        <img src="Icons/home.svg" alt="Home" />
+        <p>Home</p>
+      </div>
+      <div class="icon-2">
+        <img src="Icons/explore.svg" alt="Explore" />
+        <p>Explore</p>
+      </div>
+      <div class="icon-3">
+        <img src="Icons/subscriptions.svg" alt="Subscriptions" />
+        <p>Subscriptions</p>
+      </div>
+      <div class="icon-4">
+        <img src="Icons/originals.svg" alt="Originals" />
+        <p>Originals</p>
+      </div>
+      <div class="icon-5">
+        <img src="Icons/explore.svg" alt="Music" />
+        <p>YouTube Music</p>
+      </div>
+      <div class="icon-6">
+        <img src="Icons/library.svg" alt="Library" />
+        <p>Library</p>
+      </div>
+    </div>
         <div class="video-cards">
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-1.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-1.webp" alt="Video thumbnail 1"></a>
                     <p class="time">
                         14:20
                      </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-1.jpeg">
+                    <img class='dp' src="../DPs/channel-1.jpeg" alt="Channel 1 Image">
                     <p class="title"> Talking Tech and AI with Google CEO Sundar Pichai!</p>
                 </div>
                 <div class="details">
@@ -50,13 +77,13 @@
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-2.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-2.webp" alt="Video thumbnail 2"></a>
                     <p class="time">
                         8:22
                      </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-2.jpeg">
+                    <img class='dp' src="../DPs/channel-2.jpeg" alt="Channel 2 Image">
                     <p class="title"> Try Not To Laugh Challenge #9</p>
                 </div>
                 <div class="details">
@@ -67,13 +94,13 @@
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-3.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-3.webp" alt="Video thumbnail 3"></a>
                     <p class="time">
                         9:13
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-3.jpeg">
+                    <img class='dp' src="../DPs/channel-3.jpeg" alt="Channel 3 Image">
                     <p class="title"> Crazy Tik Toks Taken Moments Before DISASTER</p>
                 </div>
                 <div class="details">
@@ -84,182 +111,182 @@
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-4.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-4.webp" alt="Video thumbnail 4"></a>
                     <p class="time">
                         22:09
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-4.jpeg">
+                    <img class='dp' src="../DPs/channel-4.jpeg" alt="Channel 4 Image">
                     <p class="title"> The Simplest Math Problem No One Can Solve - Coollatz Conjecture</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">Veritasium</p>
-                    <p class="video-stats"> 18M views &#183 4 months ago <p>
+                    <p class="video-stats"> 18M views &#183 4 months ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-5.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-5.webp" alt="Video thumbnail 5"></a>
                     <p class="time">
                         11:17
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-5.jpeg">
+                    <img class='dp' src="../DPs/channel-5.jpeg" alt="Channel 5 Image">
                     <p class="title"> Kadane's Algorithm to Maximum Sum Subarray Problem</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">CS Dojo</p>
-                    <p class="video-stats"> 519K views &#183 5 years ago<p>
+                    <p class="video-stats"> 519K views &#183 5 years ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-6.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-6.webp" alt="Video thumbnail 6"></a>
                     <p class="time">
                         19:59
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-6.jpeg">
+                    <img class='dp' src="../DPs/channel-6.jpeg" alt="Channel 6 Image">
                     <p class="title"> Anything You Can Fit In The Circle I'll Pay For</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">MrBeast</p>
-                    <p class="video-stats"> 141M views &#183 1 year ago<p>
+                    <p class="video-stats"> 141M views &#183 1 year ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-7.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-7.webp" alt="Video thumbnail 7"></a>
                     <p class="time">
                         10:13
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-7.jpeg">
+                    <img class='dp' src="../DPs/channel-7.jpeg" alt="Channel 7 Image">
                     <p class="title"> Why Planes Don't Fly Over Tibet</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">RealLifeLore</p>
-                    <p class="video-stats"> 6.6M views &#183 1 year ago<p>
+                    <p class="video-stats"> 6.6M views &#183 1 year ago </p>
                 </div>
             </div>
 
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-8.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-8.webp" alt="Video thumbnail 8"></a>
                     <p class="time">
                         7:12
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-8.jpeg">
+                    <img class='dp' src="../DPs/channel-8.jpeg" alt="Channel 8 Image">
                     <p class="title"> Inside The World's Biggest Passenger Plane</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">Tech Vision</p>
-                    <p class="video-stats"> 3.7M views &#183 10 months ago<p>
+                    <p class="video-stats"> 3.7M views &#183 10 months ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-9.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-9.webp" alt="Video thumbnail 9"></a>
                     <p class="time">
                         13:17
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-9.jpeg">
+                    <img class='dp' src="../DPs/channel-9.jpeg" alt="Channel 9 Image">
                     <p class="title">The SECRET to Super Human STRENGTH</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">ThenX</p>
-                    <p class="video-stats"> 20M views &#183 3 years ago<p>
+                    <p class="video-stats"> 20M views &#183 3 years ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-10.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-10.webp" alt="Video thumbnail 10"></a>
                     <p class="time">
                         7:53
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-10.jpeg">
+                    <img class='dp' src="../DPs/channel-10.jpeg" alt="Channel 10 Image">
                     <p class="title"> How The World's Largest Curise Ship Makes 30,000 Meals Every Day</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">Business Insider</p>
-                    <p class="video-stats"> 14M views &#183 1 year ago<p>
+                    <p class="video-stats"> 14M views &#183 1 year ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-11.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-11.webp" alt="Video thumbnail 11"></a>
                     <p class="time">
                         4:10
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-11.jpeg">
+                    <img class='dp' src="../DPs/channel-11.jpeg" alt="Channel 11 Image">
                     <p class="title"> Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">Destination Tips</p>
-                    <p class="video-stats"> 3M views &#183 1 year ago<p>
+                    <p class="video-stats"> 3M views &#183 1 year ago </p>
                 </div>
             </div>
 
             <div class="firstcard">
                 <div class="image-wrapper">
-                    <img class="image" src="../Thumbnails/thumbnail-12.webp">
+                    <a href="#"><img class="image" src="../Thumbnails/thumbnail-12.webp" alt="Video thumbnail 12"></a>
                     <p class="time">
                         4:51
                     </p>
                 </div>
                 <div class="dp-title">
-                    <img class='dp' src="../DPs/channel-12.jpeg">
+                    <img class='dp' src="../DPs/channel-12.jpeg" alt="Channel 12 Image">
                     <p class="title"> What would happen if you don't drink water? - Mia Nacamulli</p>
                 </div>
                 <div class="details">
                     <p class="youtuber">Ted-Ed</p>
-                    <p class="video-stats"> 12M views &#183 5 years ago<p>
+                    <p class="video-stats"> 12M views &#183 5 years ago </p>
                 </div>
             </div>
         </div>
 
         <div class="leftbar">
             <div class="icon-1">
-                <img class="home-icon" src="Icons/home.svg">
+                <img class="home-icon" src="Icons/home.svg" alt="Home Icon">
                 <p class="home-title"> Home</p>
             </div>
             <div class="icon-2">
-                <img class="explore-icon" src="Icons/explore 2.svg"> 
+                <img class="explore-icon" src="Icons/explore 2.svg" alt="Explore Icon"> 
                 <p class="explore-title">Explore</p> 
             </div>
             <div class="icon-3">
-                 <img class="subscription-icon" src="Icons/subscriptions.svg">
+                 <img class="subscription-icon" src="Icons/subscriptions.svg" alt="Subscriptions Icon">
                  <p class="subscription-title"> Subscriptions</p>
             </div>
             <div class="icon-4">
-                 <img class="originals-icon" src="Icons/originals.svg"> 
+                 <img class="originals-icon" src="Icons/originals.svg" alt="Originals Icon"> 
                  <p class="originals-title"> Originals</p>
             </div>
             <div class="icon-5">
-                 <img class="music-icon" src="Icons/explore.svg"> 
+                 <img class="music-icon" src="Icons/explore.svg" alt="Music Icon"> 
                  <p class="music-title"> Youtube Music</p>
             </div>
             <div class="icon-6">
-                 <img class="library-icon" src="Icons/library.svg">
+                 <img class="library-icon" src="Icons/library.svg" alt="Library Icon">
                  <p class="library-title"> Library</p>
             </div>
         </div>
