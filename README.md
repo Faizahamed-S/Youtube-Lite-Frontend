@@ -1,3 +1,4 @@
+# YouTube Lite 🎬 — Frontend Clone Using Pure HTML & CSS
 1. **Prototype First**: Started by building `flexbox.html` with placeholder sections to define structure using Flexbox.
 2. **Final Integration**: Migrated the flex layout into `youtube.html`, replacing placeholders with actual content such as thumbnails, titles, and metadata.
 3. **Styling Enhancements**:
